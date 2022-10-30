@@ -1,22 +1,22 @@
 MPU 8 Chip
-•    33 Hz clock speed
-•    9 stage waterfall pipeline
-•    12 general purpose registers 
-•    16 bit word length
-•    2x 8192 word built-in instruction ROM (paged)
-•    32 bit instruction length (that includes an 16 bit immediate value)
-•    VLIW architecture
-•    32 bit hardware BCD converter
-•    16 bit hardware multiplier
-•    16 bit hardware divider
-•    256x128 pixel display which can be shifted upwards 8 pixels whenever needed
-•    1 frame buffer (a RAM chip)
-•    4096 word dCache
-•    256 word iCache
-•    32 GPIO ports
-•    16x4096 word Paged ROM
-•    8 testable flags
-•    Almost fully compatible with URCL
+- 33 Hz clock speed
+- 9 stage waterfall pipeline
+- 12 general purpose registers 
+- 16 bit word length
+- 2x 8192 word built-in instruction ROM (paged)
+- 32 bit instruction length (that includes an 16 bit immediate value)
+- VLIW architecture
+- 32 bit hardware BCD converter
+- 16 bit hardware multiplier
+- 16 bit hardware divider
+- 256x128 pixel display port which can be shifted upwards 8 pixels whenever needed
+- 1 frame buffer (a on-board RAM chip)
+- 4096 word dCache
+- 256 word iCache
+- 32 GPIO ports
+- 16x4096 word Paged ROM
+- 8 testable flags
+- fully compatible with URCL
 
 Chungus 2 Chip
 
@@ -60,4 +60,6 @@ Krypton Graphics Unit 1 (or just Krypton 1)
 - vertex rotator
 - quadruple buffer with a maximum 512x256 resolution
 - each buffer 8192 16 bit words 
+- 24 hertz update
+- 256 8x8 sprites
 
