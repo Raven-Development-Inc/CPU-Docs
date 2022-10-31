@@ -21,7 +21,7 @@ MPU 8 Chip
 Chungus 2 Chip
 
 - 16 bit data, 32 bit fixed size instruction length
-- 1Hz clock speed, 4 stage instruction pipeline (fetch - decode - execute - writeback)
+- 18 kHz clock speed, 4 stage instruction pipeline (fetch - decode - execute - writeback)
 - paged 256 word x64 dCache
 - 64 word iCache
 - Up to 16 addressable GPIO ports
