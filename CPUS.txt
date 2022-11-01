@@ -4,7 +4,7 @@ MPU 8 Chip:
 - 12 general purpose registers 
 - 16 bit word length
 - 2x 8192 word built-in instruction ROM (paged)
-- 32 bit instruction length (that includes an 16 bit immediate value)
+- 64 bit instruction length (that includes an 16 bit immediate value)
 - VLIW architecture
 - 32 bit hardware BCD converter
 - 16 bit hardware multiplier
@@ -19,7 +19,7 @@ MPU 8 Chip:
 - fully compatible with URCL
 
 Chungus 2 Chip
-- 16 bit data, 32 bit fixed size instruction length
+- 16 bit data, 64 bit fixed size instruction length
 - 18 kHz clock speed, 4 stage instruction pipeline (fetch - decode - execute - writeback)
 - paged 256 word x64 dCache
 - 64 word iCache
