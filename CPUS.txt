@@ -79,8 +79,23 @@ Raven N Core:
   storage)
 - 64x16,777,216 words of paged SSD space
 
+HB Core 6:
+-16 bit
+-Free access to RAM (64kB)
+-Frequency: 20 kHz
+-10 PUs (Processing Units)
+-4x1024 kB paged ROM
+-32 different instructions
+-12 ALU operations including multiplication and division
+
+HB6GU (HB6 Graphic Unit):
+- 32 cores @C 4khz
+-256 colors
+-128x128 pixel screen
+-Free access to RAM (4kB)
 
 Krypton 2:
+- 16 colors
 - 16 bit
 - fast maths unit (square root extracter, logorithm, floor, atan...)
 - 64 cores with each core 2.3 khz
@@ -93,16 +108,8 @@ Krypton 2:
 - 256 8x8 sprites
 - cosine, sine, tangent tables
 
-HB Core 6:
--16 bit
--Free access to RAM (64kB)
--Frequency: 20 kHz
--10 PUs (Processing Units)
--4x1024 kB paged ROM
--32 different instructions
--12 ALU operations including multiplication and division
-
 Krypton Graphics Unit 1 (or just Krypton 1)
+- 4 colors
 - 1 core with 18 khz
 - up to 4096 different lines in line memory (stores x,y x1, y1)
 - can store 256 vertex coords and 256 edges
