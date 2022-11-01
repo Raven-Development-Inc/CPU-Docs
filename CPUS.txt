@@ -66,16 +66,18 @@ Raven A Core
 - 16,777,216 word of SSD space
 
 Raven N Core:
-- 26 khz clock
+- 24 bit
+- 16 cores with 8khz per core
 - 4 stage waterfall pipeline
-- 8 ALU Operations(Add, Subtract, And, Or, Not, Xor, Right Shift, Left Shift)
-- 16 Registers
+- 13 ALU Operations(Add, Subtract, And, Or, Not, Xor, Right Shift, Left Shift
+  barrel shift right, barrel shift left, square root, multiply, divide)
+- 32 Registers
 - 256 word Cache(data and instruction)
-- support for 65536 bytes of Memory(not a SoC)
+- support for 16,777,216 bytes of Memory(not a SoC)
 - Krypton 1 support
-- built-in 256 word call/data stack (256 levels of recursion max, if no data 
+- built-in 65536 word call/data stack (65536 levels of recursion max, if no data 
   storage)
-- 16,777,216 word of SSD space
+- 64x16,777,216 words of paged SSD space
 
 
 Krypton 2:
@@ -90,6 +92,15 @@ Krypton 2:
 - 24 hertz update
 - 256 8x8 sprites
 - cosine, sine, tangent tables
+
+HB Core 6:
+-16 bit
+-Free access to RAM (64kB)
+-Frequency: 20 kHz
+-10 PUs (Processing Units)
+-4x1024 kB paged ROM
+-32 different instructions
+-12 ALU operations including multiplication and division
 
 Krypton Graphics Unit 1 (or just Krypton 1)
 - 1 core with 18 khz
