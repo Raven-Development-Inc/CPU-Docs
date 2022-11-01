@@ -34,7 +34,6 @@ Other hardware used with the CHUNGUS 2
 - 2x 8-bit integer display (signed or unsigned)
 - 8-input NES-style controller
 - 8 bit pseudo-RNG 
-- 
 
 AnPU 1 chip
 - 14.3 khz clock
