@@ -1,4 +1,4 @@
-MPU 8 Chip
+MPU 8 Chip:
 - 33 Hz clock speed
 - 9 stage waterfall pipeline
 - 12 general purpose registers 
@@ -19,7 +19,6 @@ MPU 8 Chip
 - fully compatible with URCL
 
 Chungus 2 Chip
-
 - 16 bit data, 32 bit fixed size instruction length
 - 1Hz clock speed, 4 stage instruction pipeline (fetch - decode - execute - writeback)
 - paged 256 word x64 dCache
@@ -34,10 +33,10 @@ Other hardware used with the CHUNGUS 2
 - 64x32 character ASCII text terminal
 - 2x 8-bit integer display (signed or unsigned)
 - 8-input NES-style controller
-- 8 bit pseudo-RNG
+- 8 bit pseudo-RNG 
+- 
 
 AnPU 1 chip
-
 - 14.3 khz clock
 - 4 stage waterfall pipeline
 - 12 ALU operations
@@ -52,9 +51,37 @@ AnPU 1 chip
 - 32 word hardware call stack
 - Pointer register with instant increment/decrement option
 - Fast 16 bit addition / subtraction / right shift
+- 16x4096 paged ROM
+
+Raven A Core
+- 26 khz clock
+- 4 stage waterfall pipeline
+- 8 ALU Operations(Add, Subtract, And, Or, Not, Xor, Right Shift, Left Shift)
+- 16 Registers
+- 256 word Cache(data and instruction)
+- support for 65536 bytes of Memory(not a SoC)
+- Krypton 1 support
+- built-in 256 word call/data stack (256 levels of recursion max, if no data 
+  storage)
+- 16,777,216 word of SSD space
+
+Raven N Core:
+- 26 khz clock
+- 4 stage waterfall pipeline
+- 8 ALU Operations(Add, Subtract, And, Or, Not, Xor, Right Shift, Left Shift)
+- 16 Registers
+- 256 word Cache(data and instruction)
+- support for 65536 bytes of Memory(not a SoC)
+- Krypton 1 support
+- built-in 256 word call/data stack (256 levels of recursion max, if no data 
+  storage)
+- 16,777,216 word of SSD space
 
 
-Krypton Graphics Unit 1 (or just Krypton 1)
+Krypton 2:
+- 16 bit
+- fast maths unit (square root extracter, logorithm, floor, atan...)
+- 64 cores with each core 2.3 khz
 - up to 4096 different lines in line memory (stores x,y x1, y1)
 - can store 256 vertex coords and 256 edges
 - vertex rotator
@@ -62,4 +89,17 @@ Krypton Graphics Unit 1 (or just Krypton 1)
 - each buffer 8192 16 bit words 
 - 24 hertz update
 - 256 8x8 sprites
+- cosine, sine, tangent tables
+
+Krypton Graphics Unit 1 (or just Krypton 1)
+- 1 core with 18 khz
+- up to 4096 different lines in line memory (stores x,y x1, y1)
+- can store 256 vertex coords and 256 edges
+- vertex rotator
+- quadruple buffer with a maximum 512x256 resolution
+- each buffer 8192 16 bit words 
+- 24 hertz update
+- 256 8x8 sprites
+
+
 
