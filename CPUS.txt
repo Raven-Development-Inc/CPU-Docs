@@ -112,4 +112,11 @@ Krypton Graphics Unit 1 (or just Krypton 1)
 - 256 8x8 sprites
 
 
-
+VoxelBox network specs:
+8 bit ip addressing
+8192 words onboard network card memory
+Sends 32 bytes in around 2 seconds (give or take 3 seconds)
+Parts:
+Network card
+Route
+Adapter
