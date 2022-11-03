@@ -95,7 +95,7 @@ Krypton 2:
 HB Core 6:
 -16 bit
 -Free access to RAM (64kB)
--Frequency: 20 kHz
+-Frequency: 10 cores @ 20 kHz
 -10 PUs (Processing Units)
 -4x1024 kB paged ROM
 -32 different instructions
