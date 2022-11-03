@@ -117,7 +117,9 @@ VoxelBox network specs:
 8192 words onboard network card memory
 64 byte buffer
 Sends 64 bytes in around 300 ms (give or take 50 ms)
+256 saved ips in a 256 byte Flash chip
+
 Parts:
-Network card
-Route
+Network card - the hardware that enabled a computer to connect to a router network
+Router - The 
 Adapter
