@@ -115,7 +115,8 @@ Krypton Graphics Unit 1 (or just Krypton 1)
 VoxelBox network specs:
 8 bit ip addressing
 8192 words onboard network card memory
-Sends 32 bytes in around 2 seconds (give or take 3 seconds)
+64 byte buffer
+Sends 64 bytes in around 300 ms (give or take 50 ms)
 Parts:
 Network card
 Route
