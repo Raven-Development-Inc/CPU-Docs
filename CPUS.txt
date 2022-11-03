@@ -13,7 +13,7 @@ MPU 8 Chip:
 - 1 frame buffer (a on-board RAM chip)
 - 4096 word dCache
 - 256 word iCache
-- 32 GPIO ports
+- 64 GPIO ports
 - 16x4096 word Paged ROM
 - 8 testable flags
 - fully compatible with URCL
@@ -23,7 +23,7 @@ Chungus 2 Chip
 - 18 kHz clock speed, 4 stage instruction pipeline (fetch - decode - execute - writeback)
 - paged 256 word x64 dCache
 - 64 word iCache
-- Up to 16 addressable GPIO ports
+- Up to 128 addressable GPIO ports
 - 8 general purpose registers
 - Over 40 ALU functions, including a hardware barrel shifter, multiplier, divider and square rooter
 - 32x1024 word program pages for a total of 32768 words of program storage
@@ -46,7 +46,7 @@ AnPU 1 chip
 - 64 B (32x16 bits) of instruction cache
 - Automatic instruction cache page swaps
 - 7 branch / call / return conditions
-- 8 I/O port pairs
+- 16 I/O port pairs
 - 32 word hardware call stack
 - Pointer register with instant increment/decrement option
 - Fast 16 bit addition / subtraction / right shift
