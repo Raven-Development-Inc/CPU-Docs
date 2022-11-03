@@ -121,5 +121,5 @@ Sends 64 bytes in around 300 ms (give or take 50 ms)
 
 Parts:
 Network card - the hardware that enabled a computer to connect to a router network
-Router - The 
-Adapter
+Router - The router, central part of a network
+Adapter - connects two routers together
